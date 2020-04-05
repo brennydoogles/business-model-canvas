@@ -1,0 +1,40 @@
+{
+  "productName": "Example",
+  "createdBy": "Brendon Dugan",
+  "keyPartners": [
+	"Partner 1",
+	"Partner 2"
+  ],
+  "keyActivities": [
+	"Activity 1",
+	"Activity 2"
+  ],
+  "keyResources":[
+	"Resource 1",
+	"Resource 2"
+  ],
+  "valuePropositions": [
+	"Prop 1",
+	"Prop 2"
+  ],
+  "customerRelationships": [
+	"Rel 1",
+	"Rel 2"
+  ],
+  "channels": [
+	"Channel 1",
+	"Channel 2"
+  ],
+  "customerSegments": [
+	"Segment 1",
+	"Segment 2"
+  ],
+  "costStructure": [
+	"Cost 1",
+	"Cost 2"
+  ],
+  "revenueStreams": [
+	"Revenue 1",
+	"Revenue 2"
+  ]
+}
