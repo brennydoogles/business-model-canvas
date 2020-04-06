@@ -1,5 +1,4 @@
-
-
+const baseUrl = "http://localhost:8080/";
 $(document).ready(function () {
     $("#dateField").text(moment().format("MMMM Do YYYY"));
     createCanvasList();
@@ -13,7 +12,7 @@ $(document).ready(function () {
 });
 
 function createCanvasList() {
-    $.getJSON("../json/canvases.json", function (json) {
+    $.getJSON(baseUrl + "canvases.json", function (json) {
         // console.log(json); // this will show the info it in firebug console
         $.each(json.canvases, function (key, value) {
             let option = $('<option></option>')
@@ -40,7 +39,7 @@ function fillInCanvas(filename) {
     if(filename === undefined){
         filename = "sample.json";
     }
-    $.getJSON("../json/" + filename, function (json) {
+    $.getJSON(baseUrl + filename, function (json) {
         $("#createdByField").text(json.createdBy);
         $.each(json.keyPartners, function (key, value) {
             $("#partnerList").append("<li>" + value + "</li>")

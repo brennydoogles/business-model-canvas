@@ -1,0 +1,23 @@
+{
+  "name": "business-model-canvas-html",
+  "version": "1.0.0",
+  "description": "Business Model Canvas Tool",
+  "main": "index.js",
+  "scripts": {
+    "test": "node ./test.js",
+    "start": "node ./index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/brennydoogles/business-model-canvas.git"
+  },
+  "author": "Brendon Dugan",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/brennydoogles/business-model-canvas/issues"
+  },
+  "homepage": "https://github.com/brennydoogles/business-model-canvas#readme",
+  "dependencies": {
+    "express": "^4.17.1"
+  }
+}
